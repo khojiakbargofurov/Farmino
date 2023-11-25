@@ -45,6 +45,7 @@ a{
   line-height: 20px;
 }
 .item__link {
+ padding: 10px 0;
  color: var(--nav-link)
 }
 .btn {
@@ -60,6 +61,7 @@ a{
 }
 .hero {
   background-image: url(../static/imgs/png/bg-img.png);
+  background-repeat: no-repeat;
 }
 .hero-container {
   display: flex;
@@ -87,7 +89,7 @@ a{
 .buttons {
   display: flex;
   gap: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 .hero-btn{
   color: var(--white, #FFF);
@@ -98,6 +100,7 @@ a{
   padding: 15px 50px;
   background-color: #023F3A;
   border: 1px solid var(--white, #FFF);
+  cursor: pointer;
 }
 .hero-button{
   color: #023F3A;
@@ -107,4 +110,9 @@ a{
   letter-spacing: 0.46px;
   padding: 15px 50px;
   background-color: var(--white);
+  cursor: pointer;
+}
+.hero-img{
+  display: flex;
+  object-fit: cover;
 }
